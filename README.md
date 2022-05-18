@@ -1,10 +1,4 @@
-# DappBlackJack
-
-基本教程:https://learnblockchain.cn/docs/truffle/getting-started/truffle-with-metamask.html
-
-truffle 提供Dapp 框架
-
-https://github.com/trufflesuite/truffle
+# environment version:
 
 node -v: 14.19.1
 
@@ -12,8 +6,18 @@ truffle -v: 5.5.11
 
 port: 8575
 
-Ganache 用于测试合约
+metaMask
 
-部署到Geth线上网络
+# how to build:
 
-metaMask实现可视化交互
+clone this project
+
+cd DappBlackJack
+
+truffle compile
+
+truffle migrate
+
+cd app
+
+npm run serve

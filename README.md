@@ -1,4 +1,11 @@
-# environment version:
+# Instruction:
+
+This project implements BlackJack, a famous gambling 
+game in the world, applied as a decentralized application. It is accomplished by 
+different blockchain technologies and services: truffle, Ganache and metaMask. This 
+Dapp provides a fair environment for people to enjoy BlackJack.
+
+# Environment :
 
 node -v: 14.19.1
 
